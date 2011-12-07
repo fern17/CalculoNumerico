@@ -1,6 +1,8 @@
 //Realiza la eliminacion de Gauss para una matriz A y un vector b
 // Devuelve: B matriz triangular superior resultado de aplicar eliminación 
 // Gaussiana a A. Realiza pivoteo básico
+// Pivoteo Básico: Si el pivote es 0, busca un pivote en las filas inferiores 
+//   que sea distinto a 0.
 function [B] = elimGaussPivoteo(A,b)
     n = size(A,1);
     A = [A b];
