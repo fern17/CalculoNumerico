@@ -1,7 +1,7 @@
 //Realiza la factorización de Crout
 //A es una matriz de nxn.
-// L es matriz triangular superior
-// U es matriz triangular inferior con unos en la diagonal.
+// L es matriz triangular inferior
+// U es matriz triangular superior con unos en la diagonal.
 
 function [L,U] = factCrout(A)
     n = size(A,1);

@@ -1,6 +1,6 @@
 //Realiza la factorización de Cholesky
 //A es una matriz de nxn.
-// L es matriz triangular superior
+// L es matriz triangular inferior
 // Lt es la transpuesta de L
 
 function [L,Lt] = factCholesky(A)
