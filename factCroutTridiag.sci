@@ -1,7 +1,7 @@
 //Realiza la factorización de Crout para una matriz Tridiagonal
 //A es una matriz tridiagonal de nxn.
 // U es matriz triangular superior con unos en la diagonal.
-// L es matriz triangular inferior. 
+// L es matriz triangular inferior 
 
 function [L,U] = factCroutTridiagonal(A)
     n = size(A,1);
