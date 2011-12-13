@@ -1,5 +1,5 @@
 function y = f(x)
-    y = (x - x^2)^2;
+    y = x;
 endfunction
 
 function fi = simp_comp(a,b,n)
@@ -8,6 +8,7 @@ function fi = simp_comp(a,b,n)
     for i=0:n
         x(i+1) = a+i*h;
     end
+    disp(x);
     //x=linspace(a,b,h)
     disp(x);
     suma1 = 0;
