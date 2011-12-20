@@ -23,7 +23,7 @@ function [B] = elimGaussPPEscalado(A,b)
             for k=(j+1):n
                 if( abs(A(k,i))/s(k) > maxValorRel) 
                     //si encuentro un mejor candidato, guardo valor y fila
-                    maxValorRel = A(k,i); 
+                    maxValorRel = A(k,i)/s(i); 
                     fila = k;
                 end
             end
